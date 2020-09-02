@@ -1,0 +1,17 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        String Student= "Name:";
+        String Description= "Senior";
+        Boolean c= true;
+        float d= 4.0a ;
+        int e= 6;
+
+        System.out.println("What is your final GPA? " + Student);
+        System.out.println("Your final GPA is: " + d);
+        System.out.println("You need " + e + "credits");
+        System.out.println("You are a" + Description);
+
+    }
+}
