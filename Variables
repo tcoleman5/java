@@ -1,0 +1,14 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int test; test = 95;
+        int price; price = 100;
+        int name; name = Brian;
+        
+    System.out.println("Test Score initialized is: "+test);
+    System.out.println("Price tag: "+price);
+    System.out.println("Username: "+name);
+    }
+}
