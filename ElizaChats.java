@@ -16,3 +16,5 @@ public class Main {
         System.out.println("Okay, Well it has been my pleasure to speak with you. Have a nice day!");
 
         System.out.println("Here are your responses: "+name+" "+dayfeels+" "+explain+" :)");
+  }
+}
