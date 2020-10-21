@@ -10,10 +10,10 @@ public class Main {
         do { System.out.print("How many bricks do you want ");
             blocks = input.nextInt() 
             
-            } while ((blocks < 1) || (blocks > 8));
-        {
-            for (int row = 0; row < blocks; row++) {
-                for (int space = 0; space < (blocks-row-1); space++){
+        }   while ((blocks < 1) || (blocks > 8));
+        
+        {   for (int row = 0; row < blocks; row++) {
+            for (int space = 0; space < (blocks-row-1); space++){
                     System.out.print(" ");
                 }
                 for (int col =0; col <= row; col++ ){
