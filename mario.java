@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int blocks = 0;
-        do { System.out.print("How many bricks do you want ");
+        do { System.out.print("How many blocks do you want ");
             blocks = input.nextInt() 
             
         }   while ((blocks < 1) || (blocks > 8));
