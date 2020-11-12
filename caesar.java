@@ -40,6 +40,6 @@ public class Main {
             message += letter;
 
         }
-        return message;
+        System.out.println(message);
     }
 }
