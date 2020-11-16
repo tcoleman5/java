@@ -12,7 +12,7 @@ public class Main {
 	  do {
 		System.out.print("How much change is owed? ");
 		changemin = input.nextFloat();
-	    } while (changemin < 0.0);
+	  } while (changemin < 0.0);
        
 	      int cents = Math.round(changemin * 100);
         
@@ -21,7 +21,7 @@ public class Main {
 	      int rem = changemin % 25; }
         
       else if (cents /10 >= 1) {  
-        int coins = (changemin / 10);
+              int coins = (changemin / 10);
 	      int rem = changemin % 10; }
         
       else if (cents / 5 >= 1) {
@@ -30,9 +30,9 @@ public class Main {
       
       else {
 	      int coins = (changemin / 1);
-        int rem = changemin % 1; }
+              int rem = changemin % 1; }
       
-	  System.out.println("The minimum number of coins is: " + coins);
+	  System.out.println("The minimum number of coins needed is: " + coins);
 
     }
 }
